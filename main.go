@@ -33,6 +33,8 @@ func palindrom(text string) string {
 	return "true"
 
 }
+
+// 2
 func maxNumber(number []int) int {
 
 	max := 0
@@ -45,14 +47,12 @@ func maxNumber(number []int) int {
 	return max
 }
 
-// no3
+// 3
 func star(input int) string {
-	// asterix := []string{"*"}
 	asterix := "*"
 	result := ""
 	for i := 0; i <= (input); i++ {
 		fmt.Println(strings.Repeat(asterix, i))
-		// asterix = append(asterix, "*")
 		result = strings.Repeat(asterix, i)
 	}
 	fmt.Println(result)
